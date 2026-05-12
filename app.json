@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "hand2hand",
+    "slug": "hand2hand",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-filled.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo-outline.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.hema_narala.hand2hand"
+    },
+    "web": {
+      "favicon": "./assets/logo1.png"
+    },
+    "plugins": [
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e0df3932-2ebb-445a-92cb-4e954faf4c97"
+      }
+    }
+  }
+}
